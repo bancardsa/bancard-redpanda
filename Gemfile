@@ -1,6 +1,6 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-# Specify your gem's dependencies in bancard-redpanda.gemspec
+gem 'kafka', '~> 0.5.2'
+
+# Specify your gem's dependencies in bancard-loggers.gemspec
 gemspec
-
-gem "rake", "~> 12.0"
